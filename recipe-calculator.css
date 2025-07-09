@@ -1,0 +1,47 @@
+/* --- recipe-calculator.css --- */
+.recipe-calc {
+  max-width: 600px;
+  margin: 1em auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.recipe-calc .rc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.recipe-calc .rc-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+.recipe-calc .rc-header input {
+  width: 60px;
+  padding: 0.2em;
+  font-size: 1em;
+  text-align: center;
+}
+.recipe-calc .rc-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.8em;
+}
+.recipe-calc .rc-item {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  padding: 0.5em;
+  text-align: center;
+}
+.recipe-calc .rc-item img {
+  max-width: 60px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.4em;
+}
+.recipe-calc .rc-item .qty {
+  font-weight: bold;
+}
